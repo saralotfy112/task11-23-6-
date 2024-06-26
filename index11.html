@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2</title>
+    <link rel="stylesheet" href="css/style11.css">
+</head>
+
+<body >
+    <div class="parent">
+        <h1> BMI Calculator </h1>
+        <form class="form1" name="form">
+            <div >
+                <label for="height">Height (CM): </label>
+                <br>
+                <input id="height" class="input1" type="text" name="height" placeholder="180" >
+            </div>
+            <div>
+                <label for="weight">Weight (KG): </label>
+                <br>
+                <input id="weight" class="input1" type="text" name="weight" placeholder="90" >
+            </div>
+            <div>
+                <input class="input2" type="button" name="button" value="Calculate" onclick="Calculator()">
+            </div>
+        </form>
+        <p class="pargraph1">Your BMI is: </p>
+        <p class="pargraph2" id="BMI" > </p>
+        <p class="pargraph2" id="BMIresult1"> </p>
+
+    </div>
+
+    <script src="js/script11.js"></script>
+</body>
+
+</html>

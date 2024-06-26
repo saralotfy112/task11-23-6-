@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.parent{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form1{
+    margin: 0px 50px;
+}
+.form1 div{
+    margin-bottom: 20px;
+}
+.form1 div .input1{
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.form1 div .input2{
+    width: 300px;
+    padding: 10px;
+    font-size:20px;
+    background-color: #2563ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form1 div .input2:hover{
+    cursor: pointer;
+}
+.pargraph1{
+    margin-left: 50px;
+}
+.pargraph2{
+    text-align: center;
+    padding: 5px;
+}
+#BMI{
+    color: blue;
+}
